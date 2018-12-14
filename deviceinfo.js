@@ -227,6 +227,9 @@ export default {
   getTotalMemory: function() {
     return RNDeviceInfo.totalMemory;
   },
+  getProcessMemoryInfo: function() {
+    return RNDeviceInfo.processMemoryInfo;
+  },
   getMaxMemory: function() {
     return RNDeviceInfo.maxMemory;
   },
