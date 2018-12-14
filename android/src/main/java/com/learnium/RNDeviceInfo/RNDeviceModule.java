@@ -329,6 +329,7 @@ public class RNDeviceModule extends ReactContextBaseJavaModule {
     ActivityManager.MemoryInfo memInfo = new ActivityManager.MemoryInfo();
     actMgr.getMemoryInfo(memInfo);
     constants.put("totalMemory", memInfo.totalMem);
+    constants.put("processMemoryInfo", 0);
 
     return constants;
   }
