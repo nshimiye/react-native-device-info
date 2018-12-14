@@ -14,6 +14,7 @@ import android.content.res.Configuration;
 import android.net.wifi.WifiManager;
 import android.net.wifi.WifiInfo;
 import android.os.Build;
+import android.os.Debug;
 import android.os.Environment;
 import android.os.StatFs;
 import android.os.BatteryManager;
